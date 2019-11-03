@@ -1,0 +1,6 @@
+{ "ListCounter" :  3 ,
+ "HeadNodeid" :  0 ,
+ "TailNodeid" :  1 ,
+ "Nodes" :[{ " node0" : {"data" : "s1" ,"randId":1}},{ " node1" : {"data" : "s2" ,"randId":0}},{ " node2" : {"data" : "s3" ,"randId":1}}
+]
+}
