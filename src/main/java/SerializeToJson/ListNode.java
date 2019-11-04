@@ -6,14 +6,6 @@ public class ListNode {
     private String Data;
     private ListNode Rand; // произвольный элемент внутри списка
 
-    public void setPrev(ListNode prev) {
-        Prev = prev;
-    }
-
-    public void setNext(ListNode next) {
-        Next = next;
-    }
-
     public ListNode(ListNode prev, ListNode next, String data, ListNode rand) {
         Prev = prev;
         Next = next;
@@ -25,20 +17,28 @@ public class ListNode {
         return Prev;
     }
 
+    public void setPrev(ListNode prev) {
+        Prev = prev;
+    }
+
     public ListNode getNext() {
         return Next;
+    }
+
+    public void setNext(ListNode next) {
+        Next = next;
     }
 
     public ListNode getRand() {
         return Rand;
     }
 
-    public String getData() {
-        return Data;
-    }
-
     public void setRand(ListNode rand) {
         Rand = rand;
+    }
+
+    public String getData() {
+        return Data;
     }
 }
 

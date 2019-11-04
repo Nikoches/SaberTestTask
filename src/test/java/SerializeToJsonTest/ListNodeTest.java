@@ -2,18 +2,10 @@ package SerializeToJsonTest;
 
 import SerializeToJson.ListNode;
 import SerializeToJson.ListRand;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.junit.jupiter.api.Test;
-
-import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.HashMap;
-import java.util.Iterator;
+
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
